@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>websiteBuilder</title>
+</head>
+
+<body>
+    <header>
+        <button id="hamburger">&#9776;</button>
+        <span class="logo">WebsiteBuilder</span>
+    </header>
+    <div class="builder">
+        <!-- Sidebar -->
+
+        <div class="sidebar">
+            <div class="side-btn">
+                <h1><i>properties</i></h1><br>
+                <button id="tbtn">Add Text</button>
+                <button id="ibtn">Add Image</button>
+                <button id="bbtn">Add Button</button>
+                <button id="downloadbtn">Download Design</button>
+                <button id="deletebtn">Delete Element</button>
+            </div>
+        </div>
+
+        <!-- canvas -->
+        <div class="canvas">
+            <p></p>
+        </div>
+
+
+        <!-- properties panel -->
+        <div class="properties">
+            <h1><i>Edit Panel </i></h1>
+            <label>Edit Text:<input id="txt" type="text" placeholder="Edit Text"></label>
+            <label>Font color:<input id="color" type="color" placeholder="Text Color"></label>
+            <label>Font-size<input id="size" type="number" placeholder="font-size"></label>
+            <label>Image Url<input id="imgInput" placeholder="Edit Image Url"></label>
+            <label>Background-Color:<input id="bgcolor" type="color" placeholder="Background color"></label>
+            <label>width:<input id="btnWidth" type="number" placeholder=" Width (px)"></label>
+            <label>Height:<input id="btnHeight" type="number" placeholder=" Height (px)"></label>
+        </div>
+    </div>
+    <footer>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
